@@ -18,7 +18,6 @@ jobs:
 
     - name: Build the hello-world Docker image
       run: |
-        docker build . --tag ghcr.io/jonashackt/hello-world:latest
-        docker run ghcr.io/jonashackt/hello-world:latest
-        docker push ghcr.io/jonashackt/hello-world:latest
+        docker build . --tag ghcr.io/taigi100/hello-world:latest
+        docker push ghcr.io/taigi100/hello-world:latest
 
